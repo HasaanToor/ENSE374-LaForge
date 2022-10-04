@@ -1,6 +1,6 @@
-# ENSE374-LaForge
+# Team LaForge
 
-# Members
-Lalith Souri
-Rizwan Islam
-Hasaan Toor
+## Members
+* Lalith Souri
+* Rizwan Islam
+* Hasaan Toor
