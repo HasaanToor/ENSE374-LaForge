@@ -8,3 +8,6 @@
 ## Vlogs
 * [Activity 1 Vlog](https://www.youtube.com/watch?v=HbZrESt8KsI&ab_channel=HasaanToor)
 * [Activity 2 Vlog]()
+
+## Project Planning Documents (Activity 2)
+* [Documents and PDFs](https://github.com/HasaanToor/ENSE374-LaForge/tree/main/Activity2)
