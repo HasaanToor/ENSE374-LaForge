@@ -10,4 +10,4 @@
 * [Activity 2 Vlog]()
 
 ## Project Planning Documents (Activity 2)
-* [Documents and Project Board](https://github.com/HasaanToor/ENSE374-LaForge/tree/main/Activity2)
+* [Documents and Project Board](./Activity2)
