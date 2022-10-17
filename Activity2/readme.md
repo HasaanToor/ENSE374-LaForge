@@ -3,4 +3,4 @@
 
 ### Project Planning Documents
 * [DOCX Format](https://github.com/HasaanToor/ENSE374-LaForge/tree/main/Activity2/DOCX)
-* [PDF Format]()
+* [PDF Format](https://github.com/HasaanToor/ENSE374-LaForge/tree/main/Activity2/PDF)
