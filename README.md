@@ -5,6 +5,14 @@
 * Rizwan Islam
 * Hasaan Toor
 
+## Project Idea
+Our idea is an interactive map of Canada that provides the user with tidbits of facts and general knowledge for each provinces and territory when clicking them.
+
+## Project Background/Business Opportunity
+This interactive map will be based on Model-View-Controller design architecture. Our reason for making such a project is to aim to help the average user gain information about Canada. One potential use of our map is for travelers to decide where to go within Canada, similarly to how it is difficult to decide on something to watch when having a movie night, it could be difficult to choose a holiday destination within Canada that values the users money and time. Essentially, our project's main goal is to provide the average user with new useful information that could potentially aid their studies, career, decisions, and more.
+
+The project will aim to be useful for a variety of business needs. Travel agencies that help newcomers, travelers, tourists, etc that are visiting or moving to Canada can make use of our project as it will provide information that any traveler would require. As this map will provide climate information and information about some of the most successful industries (mining, agriculture, chemical, etc.) in each province, both employers and potential employees can decide where to advance their professional career. It will also benefit researchers to get a high quality and quantity of data from all across Canada which will help them in whatever they may be researching.
+
 ## Vlogs
 * [Activity 1 Vlog](https://www.youtube.com/watch?v=HbZrESt8KsI&ab_channel=HasaanToor)
 * [Activity 2 Vlog](https://www.youtube.com/watch?v=ANDIynAwp4M&ab_channel=HasaanToor)
