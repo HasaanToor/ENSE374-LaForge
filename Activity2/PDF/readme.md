@@ -1,2 +1,9 @@
 ### Project Planning Documents (PDF Format)
-* placeholder
+* [Business Case Document](./Business%20Case.pdf)
+* [Project Charter Document](./Project%20Charter.pdf)
+* [Project Requirements Document](./Project%20Requirements.pdf)
+* [Project Roles and Responsibilities Document](./Project%20Roles%20and%20Responsibilities.pdf)
+* [Project Scope Document](./Project%20Scope.pdf)
+* [RACI Chart](./RACI%20Chart.pdf)
+* [Stakeholder Engagement Plan Document](./Stakeholder%20Engagement%20Plan.pdf)
+* [Stakeholder Register Document](./Stakeholder%20Register.pdf)
