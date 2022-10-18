@@ -1,3 +1,3 @@
 ### Project Planning Documents (DOCX Format)
-* [Business Case](./Business_Case.docx)
+* [Business Case Document](./Business%20Case.docx)
 
