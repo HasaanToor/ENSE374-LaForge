@@ -1,1 +1,1 @@
-### HiFi Prototype(./HiFi)
+### [HiFi Prototype](./HiFi)
