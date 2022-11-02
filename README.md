@@ -20,7 +20,8 @@ The project will aim to be useful for a variety of business needs. Travel agenci
 ## Project Planning Documents (Activity 2)
 * [Documents and Project Board](./ProjectPlanningAndDocs)
 
-## (Activity 3 Placeholder)
+## Project Design Architecture (Activity 3)
+* [Documents and Questionnaire](./ProjectDesignArchitecture)
 
 ## (Activity 4 Placeholder)
 
