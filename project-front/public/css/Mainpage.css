@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+.logout{
+    padding: 20px;
+}
+
 body{
     margin: 0;
     min-height: 100vh;
@@ -22,6 +26,19 @@ body{
 
 a{
     color: inherit;
+}
+
+.btn{
+    border: none;
+    background-color: rgba(255,255,255,0.5);
+	padding: 10px 10px;
+	color: rgb(10, 10, 10);
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color:#3c3163;
+	color:white;
 }
 
 .cards-wrapper {

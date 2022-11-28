@@ -1,0 +1,8 @@
+<div>
+    <strong><%= forum.creator %></strong>
+    <form action="/removeForum" method="post">
+        <input style="width: 90%;" type="text" id="enterText" name="enterText" value="<%= forum.text %>" disabled>
+        <input type="hidden" id="f_id" name="f_id" value="<%= forum._id %>" > 
+        <button class="btn" type="submit">Delete</button>
+    </form>
+</div>

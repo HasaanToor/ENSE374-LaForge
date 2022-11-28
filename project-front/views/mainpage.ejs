@@ -1,0 +1,157 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+      
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/Mainpage.css" />
+    
+    </head>
+    <body>
+        <div class="logout">
+            <button class="btn" onclick="document.location.href='/logout'">Logged in as: <%= username %><br><br>Click to Log Out</button>
+        </div>
+        <section class="cards-wrapper">
+            <div class="card-grid-space">
+                
+                <a class="card" style="background-image:url(https://www.dangerous-business.com/wp-content/uploads/2016/09/P9240899.jpg)">
+            <div>
+            <h1>Alberta</h1>
+            <p> Breathe taking scenic views, glaciers, lakes and mountains... a best kept secret!</p>
+            <div class="date">28 NOV 2022</div>
+            <div class="tags">
+                <div class="tag">
+                    <form action="/AB" method="post">
+                        <button type="submit" class="btn">Adventure</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+            </a>
+            </div>
+            <div class="card-grid-space">
+                
+                <a class="card" style="background-image:url(https://www.hopestandard.com/wp-content/uploads/2022/07/29668691_web1_220705-BPD-BC-OlympicBid_1.jpg)">
+            <div>
+            <h1>British Columbia</h1>
+            <p>Windswept beaches, rainforests, mountain ranges and culture.. that's BC for you!</p>
+            <div class="date">28 NOV 2022</div>
+            
+            <div class="tags">
+                <div class="tag">
+                <form action="/BC" method="post">
+                    <button type="submit" class="btn">Coastlines</button>
+                </form></div>
+            </div>
+            </div>
+            </a>
+            </div>
+            <div class="card-grid-space">
+                
+                <a class="card" style="background-image:url(https://preview.redd.it/7yebhlpngdt11.jpg?auto=webp&s=c27b194eb64837357a45484e68b48cf95915be4c)">
+            <div>
+            <h1>Quebec</h1>
+            <p>The 2 F words: Fall and French.. Quebec is all about having a sip of coffee while watching those leaves fall..</p>
+            <div class="date">28 NOV 2022</div>
+            <div class="tags">
+                <div class="tag">
+                    <form action="/QC" method="post">
+                        <button type="submit" class="btn">French Roots</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+            </a>
+            </div>
+            <div class="card-grid-space">
+                
+                <a class="card" style="background-image:url(https://i0.wp.com/atravelingfairy.com/wp-content/uploads/2021/05/torontoskyline_polsonpier-scaled.jpg?resize=1200%2C800&ssl=1)">
+            <div>
+            <h1>Ontario</h1>
+            <p>Graffiti, CN tower, night life, skyscrapers and Niagara falls... A total package!</p>
+            <div class="date">28 NOV 2022</div>
+            <div class="tags">
+                <div class="tag">
+                    <form action="/ON" method="post">
+                        <button type="submit" class="btn">City Lights</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+            </a>
+            </div>
+            <div class="card-grid-space">
+                
+                <a class="card" style="background-image:url(https://www.prepareforcanada.com/wp-content/uploads/Regina-Img.jpg)">
+            <div>
+            <h1>Saskatchewan</h1>
+            <p>Rich in history and heritage, Queen City.. Regina
+               Numerous lakes, great sunsets, Bridge City.. Saskatoon. keep an eye out for northern lights!!
+            </p>
+            <div class="date">28 NOV 2022</div>
+            <div class="tags">
+                <div class="tag">
+                    <form action="/SK" method="post">
+                        <button type="submit" class="btn">Praries</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+            </a>
+            </div>
+            <div class="card-grid-space">
+                
+                <a class="card" style="background-image:url(https://wanderingwagars.com/wp-content/uploads/2019/09/Churchill-Manitoba-Guide-Twitter.jpg)">
+            <div>
+            <h1>Manitoba</h1>
+            <p>On your next trip to Manitoba, take in the serenity while admiring the northern lights!
+            </p>
+            <div class="date">28 NOV 2022</div>
+            <div class="tags">
+                <div class="tag">
+                    <form action="/MB" method="post">
+                        <button type="submit" class="btn">National Parks</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+            </a>
+            </div>
+            <div class="card-grid-space">
+                
+                <a class="card" style="background-image:url(https://www.wendyperrin.com/wp-content/uploads/2016/04/newfoundland-scenery-newfoundland-labrador-tourism-maxxim-vacations.jpg)">
+            <div>
+            <h1>Newfoundland and Labrador</h1>
+            <p>One of the most amazing sites on Earth to see whales is Newfoundland and Labrador.
+            </p>
+            <div class="date">28 NOV 2022</div>
+            <div class="tags">
+                <div class="tag">
+                    <form action="/NL" method="post">
+                        <button type="submit" class="btn">Icebergs and Whales</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+            </a>
+            </div>
+            <div class="card-grid-space">
+                
+                <a class="card" style="background-image:url(https://www.adventurouskate.com/wp-content/uploads/2022/03/Peggys-Cove-1-Week-Nova-Scotia-Itinerary-scaled.jpg)">
+            <div>
+            <h1>Nova Scotia</h1>
+            <p>Given thousands of kilometres of coastline, it's hardly surprising that Nova Scotia has the most lighthouses of any province in Canada.
+            </p>
+            <div class="date">28 NOV 2022</div>
+            <div class="tags">
+                <div class="tag">
+                    <form action="/NS" method="post">
+                        <button type="submit" class="btn">Lighthouses</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+            </a>
+            </div>
+        </section>
+    </body>

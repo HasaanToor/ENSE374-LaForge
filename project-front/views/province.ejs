@@ -1,0 +1,108 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+<title> <%= provinces.province %> </title>
+<meta charset="utf-8">
+<meta name="viewport" content= "width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 580px)" href="css/province1.css" />
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 581px)" href="css/province2.css" />
+</head>
+<body style="background-image:url('images/background/<%= provinces.background %>')"></body>
+<body>
+<header style="background-image:url('images/background/<%= provinces.background %>')">
+    <style>
+        .container{
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.container .text{
+  resize: none;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  height: 100%;
+  margin: -10px;
+}
+    </style>
+<div class="logout">
+    <button class="btn" onclick="document.location.href='/mainpage'">Click to go back</button>
+</div>
+<table>
+<tr>
+
+<h1 style="font-family:'Times New Roman', Times, serif"> <%= provinces.province %> </h1>
+</tr>
+</table>
+</header>
+
+
+
+<hr style="line-height: 5.0cm;">
+
+       <section id ="sec_me">
+       <h2 style="font-family: cursive;">About <%= provinces.province %></h2>
+       
+        <p><%= provinces.about %></p> </p>
+        </p> </p>
+        </section>
+
+        <section id="sec_Assignments">
+            <h3>Discussions</h3>
+
+            <% forums.forEach(function (forum) { %>
+                <% if (forum.isForumCleared == false && forum.prov == provinces.province) { %>
+                    <% if (username == forum.creator) { %>
+                        <%- include("partials/postByMe.ejs", {forum : forum}) %>
+                    <% } else { %>
+                        <%- include("partials/postByOther.ejs", {forum : forum}) %>
+                    <% } %> 
+                <% } %> 
+            <% }) %> 
+
+
+            <div>
+                <form action="/addForum" method="post">
+                    <input style="width: 90%;" type="text" id="enterText" name="enterText" placeholder="Post your thoughts or questions!">
+                    <button class="btn" type="submit">Post</button>
+                </form>
+            </div>
+        </section>
+  
+         
+            
+     <article id="sec_Hobbies">
+        <h2>Tourist Spots</h2>
+             
+             <p><%= provinces.tourism %></p>
+              <ol>
+                <img src ="images/<%= provinces.pic1 %>" alt ="snaps" height = "120" width ="110">
+                <img src ="images/<%= provinces.pic2 %>" alt ="snaps" height = "120" width ="110">
+                <img src ="images/<%= provinces.pic3 %>" alt ="snaps" height = "120" width ="110">
+                
+              </ol>
+              <br />
+    </article>
+         
+            <hr style="line-height: 5.0cm;">
+        
+            <article id="sec_Labs">
+                <h3>CFL</h3>
+                <p><%= provinces.cfl %></p>
+                <ol>
+                    <img src ="images/<%= provinces.pic4 %>" alt ="snaps" height = "120" width ="140">
+                    <img src ="images/<%= provinces.pic5 %>" alt ="snaps" height = "120" width ="140">
+                    
+                </ol>
+            </article>
+
+           
+
+            <hr style="line-height: 5.0cm;">  
+
+                
+        </section>
+</body>
+</html>
