@@ -30,7 +30,7 @@ The project will aim to be useful for a variety of business needs. Travel agenci
 
 ## Project Storytelling & Live Demo/Presentation (Activity 5)
 * [Source Code](./project-front)
-* [Slides and Report]()
+* [Slides and Report](./Demo Slides and Report)
 
 ## License
 
