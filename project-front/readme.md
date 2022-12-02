@@ -1,10 +1,10 @@
 ## INSTALLATION REQUIREMENTS
 This project will require Node.js and MongoDB to function
 
-(Node.js)[https://nodejs.org/en/download/]
+[Node.js](https://nodejs.org/en/download)
 * Generally easy install
 
-(MongoDB)[https://www.mongodb.com/try/download/community]
+[MongoDB](https://www.mongodb.com/try/download/community)
 * Download and run the MSI package
 * Install as a Network Service User
 * DO NOT install Mongo Compass
