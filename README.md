@@ -25,9 +25,12 @@ The project will aim to be useful for a variety of business needs. Travel agenci
 ## Project Design Architecture (Activity 3)
 * [Documents and Questionnaire](./ProjectDesignArchitecture)
 
-## (Activity 4 Placeholder)
+## (Activity 4)
+* Completed Individually
 
-## (Activity 5 Placeholder)
+## Project Storytelling & Live Demo/Presentation (Activity 5)
+* [Source Code](./project-front)
+* [Slides and Report]()
 
 ## License
 
