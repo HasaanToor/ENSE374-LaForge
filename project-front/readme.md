@@ -14,6 +14,8 @@ This project will require Node.js and MongoDB to function
 * Once you have ensured you have the above dependencies and our project code, you will want to open a terminal of some kind and proceed to the /project-front directory on your PC
 
 *The easiest way to do this is to open the project in Visual Studio Code, right-click the "project-front" folder and click "Open in Integrated Terminal"*
+
+
 * In this terminal you want to run the following commands in order:
 ```
 npm init
