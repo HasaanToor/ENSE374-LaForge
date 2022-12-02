@@ -1,5 +1,7 @@
 # Team LaForge
 
+## [Source Code and Installation Instructions](./project-front)
+
 ## Members
 * Lalith Souri
 * Rizwan Islam
