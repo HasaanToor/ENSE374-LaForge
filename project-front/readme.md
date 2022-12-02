@@ -41,4 +41,4 @@ Finally, the project is ready for use, simply head over to any browser and go to
 
 Enjoy!
 
-(Please note that the user database and the forum post/comments database are both dynamically updated and thus will not carry over between devices as all databases are local to the PC, the province database is static and doesnt change, meaning that it can be manually loaded with the node loadDB.js command as shown in the instructions)
+*(Please note that the user database and the forum post/comments database are both dynamically updated and thus will not carry over between devices as all databases are local to the PC, the province database is static and doesnt change, meaning that it can be manually loaded with the node loadDB.js command as shown in the instructions)*
